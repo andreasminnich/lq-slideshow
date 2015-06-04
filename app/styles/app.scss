@@ -1,4 +1,11 @@
 .thumb {
-  max-width: 250px;
   max-height: 150px;
+  max-width: 250px;
+}
+
+.full {
+  display: block;
+  margin: 1em auto;
+  max-height: 400px;
+  max-width: 600px;
 }

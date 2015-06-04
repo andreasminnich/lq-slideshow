@@ -1,5 +1,7 @@
 {{outlet}}
 
 {{#each model as |photo|}}
-  <img class="thumb" src="assets/{{photo.imageSrc}}" />
+  {{#link-to 'photos.photo' photo}}
+    <img class="thumb" src="assets/{{photo.imageSrc}}" />
+  {{/link-to}}
 {{/each}}
