@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'lf-slideshow',
+    podModulePrefix: 'lf-slideshow/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
